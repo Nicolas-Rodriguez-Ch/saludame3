@@ -4,7 +4,6 @@ html(lang='en')
         meta(charset='utf-8')
         title
     body
-        form(action="/" method="get")
-            label(for="name")
-            input(type="text" id ="name" name ="name")
+      form(action="/", method="post")
+            input(type="text", name="name")
             button(type="submit") Enviar
